@@ -2,7 +2,7 @@
 
 **Background**
 
-* Throughout this course you will be designing and implementing a Data Science Toolbox using Python. There will be 4 (or 5) major deliverables and required, supporting discussion posts. The first deliverable will be focused on designing the class hierarchy, building the basic coding infrastructure, and beginning the documentation process.
+* In this project, I designed and implemented a Data Science Toolbox using Python. There are 5 major deliverables, supporting discussion posts and 1 summary report.
 
 **Overview of Deliverables**
   1. Design
