@@ -15,40 +15,43 @@
 
 * The toolbox will be implemented using OOP practices and will take advantage of inheritance and polymorphism. Specifically, the toolbox will consist of 3 main classes some of which have subclasses and member methods as noted below. You will also submit a demo script for each submission that tests the capabilities of your newly created toolbox.
          
-* 1. Class Hierarchy 
+  (1) Class Hierarchy 
 
       a. DataSet
 
-        i. TimeSeriesDataSet 
-        ii. TextDataSet
-        iii. QuantDataSet
-        iv. QualDataSet 
+        1. TimeSeriesDataSet 
+        2. TextDataSet
+        3. QuantDataSet
+        4. QualDataSet 
 
       b. ClassifierAlgorithm
 
-        i. simplekNNClassifier
-        ii. kdTreeKNNClassifier
-        iii. hmmClassifier 
-        iv. graphkNNClassifier 
+        1. simplekNNClassifier
+        2. kdTreeKNNClassifier
+        3. hmmClassifier 
+        4. graphkNNClassifier 
 
       c. Experiment
   
-* 2. Member Methods for each Super and Sub Class (subclasses will have more specified members as well to be added later). Each subclass will inherit superclass constructor. All other member methods will be overridden unless design deviation is well-justified.
+  (2) Member Methods for each Super and Sub Class (subclasses will have more specified members as well to be added later). Each subclass will inherit superclass constructor. All other member methods will be overridden unless design deviation is well-justified.
 
     a. DataSet
-      i. __init__(self, filename)
-      ii. __readFromCSV(self, filename)
-      iii. __load(self, filename)
-      iv. clean(self)
-      v. explore(self)
+    
+      1. __init__(self, filename)
+      2. __readFromCSV(self, filename)
+      3. __load(self, filename)
+      4. clean(self)
+      5. explore(self)
 
     b. ClassifierAlgorithm
-      i. __init__(self) 
-      ii. train(self)
-      iii. test(self) 
+    
+      1. __init__(self) 
+      2. train(self)
+      3. test(self) 
 
     c. Experiment
-      i. runCrossVal(self, k)
-      ii. score(self)
-      iii. __confusionMatrix(self)
+    
+      1. runCrossVal(self, k)
+      2. score(self)
+      3. __confusionMatrix(self)
  
