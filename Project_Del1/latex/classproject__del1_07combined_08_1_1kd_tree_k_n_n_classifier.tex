@@ -1,0 +1,80 @@
+\hypertarget{classproject__del1_07combined_08_1_1kd_tree_k_n_n_classifier}{}\doxysection{project\+\_\+del1(combined).kd\+Tree\+K\+N\+N\+Classifier Class Reference}
+\label{classproject__del1_07combined_08_1_1kd_tree_k_n_n_classifier}\index{project\_del1(combined).kdTreeKNNClassifier@{project\_del1(combined).kdTreeKNNClassifier}}
+Inheritance diagram for project\+\_\+del1(combined).kd\+Tree\+K\+N\+N\+Classifier\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classproject__del1_07combined_08_1_1kd_tree_k_n_n_classifier}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \mbox{\hyperlink{classproject__del1_07combined_08_1_1kd_tree_k_n_n_classifier_a6c0b4088ecf47e92d8db4590430b2725}{\+\_\+\+\_\+init\+\_\+\+\_\+}} (self, k=1, dataset\+\_\+type=None, dataset=None, labels=-\/1, predictor=None)
+\item 
+def \mbox{\hyperlink{classproject__del1_07combined_08_1_1kd_tree_k_n_n_classifier_a30c81b715275f236cc9c7f421427fd9a}{train}} (self, leaf\+\_\+size=0, metrics=\textquotesingle{}euclidean\textquotesingle{}, sort\+\_\+results=True)
+\item 
+def \mbox{\hyperlink{classproject__del1_07combined_08_1_1kd_tree_k_n_n_classifier_a881fe6a83575b96945e4ec848a47ecbe}{test}} (self, return\+\_\+distance=False)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classproject__del1_07combined_08_1_1kd_tree_k_n_n_classifier_a75673965dad691703402c8ce49b1b143}\label{classproject__del1_07combined_08_1_1kd_tree_k_n_n_classifier_a75673965dad691703402c8ce49b1b143}} 
+{\bfseries leaf\+\_\+size}
+\item 
+\mbox{\Hypertarget{classproject__del1_07combined_08_1_1kd_tree_k_n_n_classifier_abd05c35f4ed2418e8ae60bb346d27b75}\label{classproject__del1_07combined_08_1_1kd_tree_k_n_n_classifier_abd05c35f4ed2418e8ae60bb346d27b75}} 
+{\bfseries metrics}
+\item 
+\mbox{\Hypertarget{classproject__del1_07combined_08_1_1kd_tree_k_n_n_classifier_af6d483b95420a9fd85e1ba42de4dfdbf}\label{classproject__del1_07combined_08_1_1kd_tree_k_n_n_classifier_af6d483b95420a9fd85e1ba42de4dfdbf}} 
+{\bfseries sort\+\_\+results}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\begin{DoxyVerb}Inherite kdTreeKNNClassifier to the ClassifierAlgorithm class
+\end{DoxyVerb}
+ 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classproject__del1_07combined_08_1_1kd_tree_k_n_n_classifier_a6c0b4088ecf47e92d8db4590430b2725}\label{classproject__del1_07combined_08_1_1kd_tree_k_n_n_classifier_a6c0b4088ecf47e92d8db4590430b2725}} 
+\index{project\_del1(combined).kdTreeKNNClassifier@{project\_del1(combined).kdTreeKNNClassifier}!\_\_init\_\_@{\_\_init\_\_}}
+\index{\_\_init\_\_@{\_\_init\_\_}!project\_del1(combined).kdTreeKNNClassifier@{project\_del1(combined).kdTreeKNNClassifier}}
+\doxysubsubsection{\texorpdfstring{\_\_init\_\_()}{\_\_init\_\_()}}
+{\footnotesize\ttfamily def project\+\_\+del1(combined).kd\+Tree\+K\+N\+N\+Classifier.\+\_\+\+\_\+init\+\_\+\+\_\+ (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{k = {\ttfamily 1},  }\item[{}]{dataset\+\_\+type = {\ttfamily None},  }\item[{}]{dataset = {\ttfamily None},  }\item[{}]{labels = {\ttfamily -\/1},  }\item[{}]{predictor = {\ttfamily None} }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}initialize the default attributes
+k: integer            number of nearesr neighbors to determine classification
+labels: integer       index of label column in the data
+predictor: integer    index of predictors columns in the data(optional)
+\end{DoxyVerb}
+ 
+
+Reimplemented from \mbox{\hyperlink{classproject__del1_07combined_08_1_1_classifier_algorithm_a99d69e27cc3526ecdf69354e71348f3e}{project\+\_\+del1(combined).\+Classifier\+Algorithm}}.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classproject__del1_07combined_08_1_1kd_tree_k_n_n_classifier_a881fe6a83575b96945e4ec848a47ecbe}\label{classproject__del1_07combined_08_1_1kd_tree_k_n_n_classifier_a881fe6a83575b96945e4ec848a47ecbe}} 
+\index{project\_del1(combined).kdTreeKNNClassifier@{project\_del1(combined).kdTreeKNNClassifier}!test@{test}}
+\index{test@{test}!project\_del1(combined).kdTreeKNNClassifier@{project\_del1(combined).kdTreeKNNClassifier}}
+\doxysubsubsection{\texorpdfstring{test()}{test()}}
+{\footnotesize\ttfamily def project\+\_\+del1(combined).kd\+Tree\+K\+N\+N\+Classifier.\+test (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{return\+\_\+distance = {\ttfamily False} }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Test the kdTreeKNNClassifier model
+\end{DoxyVerb}
+ 
+
+Reimplemented from \mbox{\hyperlink{classproject__del1_07combined_08_1_1_classifier_algorithm_a321a81f8090b4cde89c57c573cbbfd0a}{project\+\_\+del1(combined).\+Classifier\+Algorithm}}.
+
+\mbox{\Hypertarget{classproject__del1_07combined_08_1_1kd_tree_k_n_n_classifier_a30c81b715275f236cc9c7f421427fd9a}\label{classproject__del1_07combined_08_1_1kd_tree_k_n_n_classifier_a30c81b715275f236cc9c7f421427fd9a}} 
+\index{project\_del1(combined).kdTreeKNNClassifier@{project\_del1(combined).kdTreeKNNClassifier}!train@{train}}
+\index{train@{train}!project\_del1(combined).kdTreeKNNClassifier@{project\_del1(combined).kdTreeKNNClassifier}}
+\doxysubsubsection{\texorpdfstring{train()}{train()}}
+{\footnotesize\ttfamily def project\+\_\+del1(combined).kd\+Tree\+K\+N\+N\+Classifier.\+train (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{leaf\+\_\+size = {\ttfamily 0},  }\item[{}]{metrics = {\ttfamily \textquotesingle{}euclidean\textquotesingle{}},  }\item[{}]{sort\+\_\+results = {\ttfamily True} }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Train the kdTreeKNNClassifier model
+\end{DoxyVerb}
+ 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+project\+\_\+del1(combined).\+py\end{DoxyCompactItemize}

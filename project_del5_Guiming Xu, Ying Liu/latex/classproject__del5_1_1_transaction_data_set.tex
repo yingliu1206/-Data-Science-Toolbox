@@ -1,0 +1,141 @@
+\hypertarget{classproject__del5_1_1_transaction_data_set}{}\doxysection{project\+\_\+del5.\+Transaction\+Data\+Set Class Reference}
+\label{classproject__del5_1_1_transaction_data_set}\index{project\_del5.TransactionDataSet@{project\_del5.TransactionDataSet}}
+Inheritance diagram for project\+\_\+del5.\+Transaction\+Data\+Set\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classproject__del5_1_1_transaction_data_set}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \mbox{\hyperlink{classproject__del5_1_1_transaction_data_set_a64459b079ca545c828b2adf5e9080106}{\+\_\+\+\_\+init\+\_\+\+\_\+}} (self, filename)
+\begin{DoxyCompactList}\small\item\em O(n) = n$^\wedge$2 \#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classproject__del5_1_1_transaction_data_set_a66dfbefc53ef7d3d05064a8172d11369}{load\+\_\+data\+\_\+set}} (self)
+\item 
+def \mbox{\hyperlink{classproject__del5_1_1_transaction_data_set_a78a0e27b33b8d8409d8f15ddf7568967}{clean}} (self)
+\item 
+def \mbox{\hyperlink{classproject__del5_1_1_transaction_data_set_a02580f701d9d4c77d82b8f529c7cb1ab}{explore}} (self, support\+Threshold=.\+25)
+\begin{DoxyCompactList}\small\item\em O(n) = n$^\wedge$2 \#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classproject__del5_1_1_transaction_data_set_a204222003ab8fe311df51e190509da60}{\+\_\+\+\_\+\+A\+R\+M\+\_\+\+\_\+}} (self, support\+Threshold=.\+25)
+\item 
+def \mbox{\hyperlink{classproject__del5_1_1_transaction_data_set_ae90658bd8a9653633bb8d3100c2eff19}{calsupport}} (self, itemset1, itemset2, dataset)
+\item 
+def \mbox{\hyperlink{classproject__del5_1_1_transaction_data_set_ab1e5122084bad7afb85c8d7a7271be20}{calconfidence}} (self, itemset, dataset)
+\item 
+def \mbox{\hyperlink{classproject__del5_1_1_transaction_data_set_a1246d6e6cd22e441f3c11c253e6af6c1}{output}} (self)
+\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+\begin{DoxyVerb}A dataset subclass for transaction data \end{DoxyVerb}
+ 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classproject__del5_1_1_transaction_data_set_a64459b079ca545c828b2adf5e9080106}\label{classproject__del5_1_1_transaction_data_set_a64459b079ca545c828b2adf5e9080106}} 
+\index{project\_del5.TransactionDataSet@{project\_del5.TransactionDataSet}!\_\_init\_\_@{\_\_init\_\_}}
+\index{\_\_init\_\_@{\_\_init\_\_}!project\_del5.TransactionDataSet@{project\_del5.TransactionDataSet}}
+\doxysubsubsection{\texorpdfstring{\_\_init\_\_()}{\_\_init\_\_()}}
+{\footnotesize\ttfamily def project\+\_\+del5.\+Transaction\+Data\+Set.\+\_\+\+\_\+init\+\_\+\+\_\+ (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{filename }\end{DoxyParamCaption})}
+
+
+
+O(n) = n$^\wedge$2 \#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#. 
+
+\begin{DoxyVerb}Create a new transaction dataset instance
+
+filename          the name of the dataset
+\end{DoxyVerb}
+ 
+
+Reimplemented from \mbox{\hyperlink{classproject__del5_1_1_data_set}{project\+\_\+del5.\+Data\+Set}}.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classproject__del5_1_1_transaction_data_set_a204222003ab8fe311df51e190509da60}\label{classproject__del5_1_1_transaction_data_set_a204222003ab8fe311df51e190509da60}} 
+\index{project\_del5.TransactionDataSet@{project\_del5.TransactionDataSet}!\_\_ARM\_\_@{\_\_ARM\_\_}}
+\index{\_\_ARM\_\_@{\_\_ARM\_\_}!project\_del5.TransactionDataSet@{project\_del5.TransactionDataSet}}
+\doxysubsubsection{\texorpdfstring{\_\_ARM\_\_()}{\_\_ARM\_\_()}}
+{\footnotesize\ttfamily def project\+\_\+del5.\+Transaction\+Data\+Set.\+\_\+\+\_\+\+A\+R\+M\+\_\+\+\_\+ (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{support\+Threshold = {\ttfamily .25} }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}supportThreshold: the minimum support
+-----------
+Perform association rule mining.
+This is a priavte method and will be called by explore().
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classproject__del5_1_1_transaction_data_set_ab1e5122084bad7afb85c8d7a7271be20}\label{classproject__del5_1_1_transaction_data_set_ab1e5122084bad7afb85c8d7a7271be20}} 
+\index{project\_del5.TransactionDataSet@{project\_del5.TransactionDataSet}!calconfidence@{calconfidence}}
+\index{calconfidence@{calconfidence}!project\_del5.TransactionDataSet@{project\_del5.TransactionDataSet}}
+\doxysubsubsection{\texorpdfstring{calconfidence()}{calconfidence()}}
+{\footnotesize\ttfamily def project\+\_\+del5.\+Transaction\+Data\+Set.\+calconfidence (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{itemset,  }\item[{}]{dataset }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}itemset: the list for items whose support is larger than supportThreshold. 
+ Here we use item_set L3.
+dataset: a list of Transactions, every transaction is also a list, which contains several items. 
+-----------
+Calculate the confidence
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classproject__del5_1_1_transaction_data_set_ae90658bd8a9653633bb8d3100c2eff19}\label{classproject__del5_1_1_transaction_data_set_ae90658bd8a9653633bb8d3100c2eff19}} 
+\index{project\_del5.TransactionDataSet@{project\_del5.TransactionDataSet}!calsupport@{calsupport}}
+\index{calsupport@{calsupport}!project\_del5.TransactionDataSet@{project\_del5.TransactionDataSet}}
+\doxysubsubsection{\texorpdfstring{calsupport()}{calsupport()}}
+{\footnotesize\ttfamily def project\+\_\+del5.\+Transaction\+Data\+Set.\+calsupport (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{itemset1,  }\item[{}]{itemset2,  }\item[{}]{dataset }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}itemset1: the list for items whose support is larger than supportThreshold. 
+  Here we use item_set L3.
+itemset2: the list for items whose support is larger than supportThreshold. 
+  Here we use item_set L2.
+dataset: a list of Transactions, every transaction is also a list, which contains several items. 
+-----------
+Calculate the support
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classproject__del5_1_1_transaction_data_set_a78a0e27b33b8d8409d8f15ddf7568967}\label{classproject__del5_1_1_transaction_data_set_a78a0e27b33b8d8409d8f15ddf7568967}} 
+\index{project\_del5.TransactionDataSet@{project\_del5.TransactionDataSet}!clean@{clean}}
+\index{clean@{clean}!project\_del5.TransactionDataSet@{project\_del5.TransactionDataSet}}
+\doxysubsubsection{\texorpdfstring{clean()}{clean()}}
+{\footnotesize\ttfamily def project\+\_\+del5.\+Transaction\+Data\+Set.\+clean (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Clean the transaction data
+\end{DoxyVerb}
+ 
+
+Reimplemented from \mbox{\hyperlink{classproject__del5_1_1_data_set_a945fd06b30fa5c5169c523bf00db9ef6}{project\+\_\+del5.\+Data\+Set}}.
+
+\mbox{\Hypertarget{classproject__del5_1_1_transaction_data_set_a02580f701d9d4c77d82b8f529c7cb1ab}\label{classproject__del5_1_1_transaction_data_set_a02580f701d9d4c77d82b8f529c7cb1ab}} 
+\index{project\_del5.TransactionDataSet@{project\_del5.TransactionDataSet}!explore@{explore}}
+\index{explore@{explore}!project\_del5.TransactionDataSet@{project\_del5.TransactionDataSet}}
+\doxysubsubsection{\texorpdfstring{explore()}{explore()}}
+{\footnotesize\ttfamily def project\+\_\+del5.\+Transaction\+Data\+Set.\+explore (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{support\+Threshold = {\ttfamily .25} }\end{DoxyParamCaption})}
+
+
+
+O(n) = n$^\wedge$2 \#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#. 
+
+\begin{DoxyVerb}supportThreshold: the minimum support
+-----------
+Compute the Support, Confidence, and Lift for all Rules above supportThreshold by calling the private method __ARM__()
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classproject__del5_1_1_transaction_data_set_a66dfbefc53ef7d3d05064a8172d11369}\label{classproject__del5_1_1_transaction_data_set_a66dfbefc53ef7d3d05064a8172d11369}} 
+\index{project\_del5.TransactionDataSet@{project\_del5.TransactionDataSet}!load\_data\_set@{load\_data\_set}}
+\index{load\_data\_set@{load\_data\_set}!project\_del5.TransactionDataSet@{project\_del5.TransactionDataSet}}
+\doxysubsubsection{\texorpdfstring{load\_data\_set()}{load\_data\_set()}}
+{\footnotesize\ttfamily def project\+\_\+del5.\+Transaction\+Data\+Set.\+load\+\_\+data\+\_\+set (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Transfer the data frame to transaction data
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classproject__del5_1_1_transaction_data_set_a1246d6e6cd22e441f3c11c253e6af6c1}\label{classproject__del5_1_1_transaction_data_set_a1246d6e6cd22e441f3c11c253e6af6c1}} 
+\index{project\_del5.TransactionDataSet@{project\_del5.TransactionDataSet}!output@{output}}
+\index{output@{output}!project\_del5.TransactionDataSet@{project\_del5.TransactionDataSet}}
+\doxysubsubsection{\texorpdfstring{output()}{output()}}
+{\footnotesize\ttfamily def project\+\_\+del5.\+Transaction\+Data\+Set.\+output (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Call the Rule class. 
+Display the top 10 rules along with these three measures to the console.
+\end{DoxyVerb}
+ 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+project\+\_\+del5.\+py\end{DoxyCompactItemize}

@@ -1,0 +1,102 @@
+\hypertarget{classproject__del5_1_1_experiment}{}\doxysection{project\+\_\+del5.\+Experiment Class Reference}
+\label{classproject__del5_1_1_experiment}\index{project\_del5.Experiment@{project\_del5.Experiment}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \mbox{\hyperlink{classproject__del5_1_1_experiment_a8a2bdca801500fdfba5b6532ae4b2896}{\+\_\+\+\_\+init\+\_\+\+\_\+}} (self, X, y, clfs)
+\item 
+def \mbox{\hyperlink{classproject__del5_1_1_experiment_a682243eb2b901f185e0d4fce09f2583a}{run\+Cross\+Val}} (self, k)
+\item 
+def \mbox{\hyperlink{classproject__del5_1_1_experiment_a86864a398f85ebad2598f36950839574}{score}} (self, y\+\_\+test, y\+\_\+pred)
+\item 
+def \mbox{\hyperlink{classproject__del5_1_1_experiment_a841cf7f7fcc097ef49f675a1f3ae5700}{get\+\_\+confusion\+Matrix}} (self, y\+\_\+test, y\+\_\+pred)
+\item 
+def \mbox{\hyperlink{classproject__del5_1_1_experiment_afc327ffe978920ee7de768c05695a092}{R\+O\+C\+\_\+curve}} (self, clfs)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classproject__del5_1_1_experiment_a55871a628cf9ed6dda42ba4ff113131e}\label{classproject__del5_1_1_experiment_a55871a628cf9ed6dda42ba4ff113131e}} 
+{\bfseries X}
+\item 
+\mbox{\Hypertarget{classproject__del5_1_1_experiment_aa825ca04e5cbe34bcc57976734c3e59e}\label{classproject__del5_1_1_experiment_aa825ca04e5cbe34bcc57976734c3e59e}} 
+{\bfseries y}
+\item 
+\mbox{\Hypertarget{classproject__del5_1_1_experiment_ad2812ed89e04dee98615f806b0556353}\label{classproject__del5_1_1_experiment_ad2812ed89e04dee98615f806b0556353}} 
+{\bfseries clfs}
+\item 
+\mbox{\Hypertarget{classproject__del5_1_1_experiment_ad69bbe44eba0d81161368ddff43f1679}\label{classproject__del5_1_1_experiment_ad69bbe44eba0d81161368ddff43f1679}} 
+{\bfseries y\+\_\+test}
+\item 
+\mbox{\Hypertarget{classproject__del5_1_1_experiment_a8a6536a764013e4a0c1b6a5d032f3ce4}\label{classproject__del5_1_1_experiment_a8a6536a764013e4a0c1b6a5d032f3ce4}} 
+{\bfseries y\+\_\+pred}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classproject__del5_1_1_experiment_a8a2bdca801500fdfba5b6532ae4b2896}\label{classproject__del5_1_1_experiment_a8a2bdca801500fdfba5b6532ae4b2896}} 
+\index{project\_del5.Experiment@{project\_del5.Experiment}!\_\_init\_\_@{\_\_init\_\_}}
+\index{\_\_init\_\_@{\_\_init\_\_}!project\_del5.Experiment@{project\_del5.Experiment}}
+\doxysubsubsection{\texorpdfstring{\_\_init\_\_()}{\_\_init\_\_()}}
+{\footnotesize\ttfamily def project\+\_\+del5.\+Experiment.\+\_\+\+\_\+init\+\_\+\+\_\+ (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{X,  }\item[{}]{y,  }\item[{}]{clfs }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}X: predictors
+y: labels
+clfs: a list of classifiers
+-----------
+Run Experiment/test from prediction of ClassifierAlgorithm
+\end{DoxyVerb}
+ 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classproject__del5_1_1_experiment_a841cf7f7fcc097ef49f675a1f3ae5700}\label{classproject__del5_1_1_experiment_a841cf7f7fcc097ef49f675a1f3ae5700}} 
+\index{project\_del5.Experiment@{project\_del5.Experiment}!get\_confusionMatrix@{get\_confusionMatrix}}
+\index{get\_confusionMatrix@{get\_confusionMatrix}!project\_del5.Experiment@{project\_del5.Experiment}}
+\doxysubsubsection{\texorpdfstring{get\_confusionMatrix()}{get\_confusionMatrix()}}
+{\footnotesize\ttfamily def project\+\_\+del5.\+Experiment.\+get\+\_\+confusion\+Matrix (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{y\+\_\+test,  }\item[{}]{y\+\_\+pred }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}y_test: This will be a list that contains test labels of each classifier. 
+(It only includes test labels of SimpleKNNClassifier this time.)
+y_pred: This will be a list that contains predicted labels of each classifier. 
+(It only includes predicted labels of SimpleKNNClassifier this time.)
+-----------
+Compute and display a confusion matrix by calling the private method __confusionMatrix()
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classproject__del5_1_1_experiment_afc327ffe978920ee7de768c05695a092}\label{classproject__del5_1_1_experiment_afc327ffe978920ee7de768c05695a092}} 
+\index{project\_del5.Experiment@{project\_del5.Experiment}!ROC\_curve@{ROC\_curve}}
+\index{ROC\_curve@{ROC\_curve}!project\_del5.Experiment@{project\_del5.Experiment}}
+\doxysubsubsection{\texorpdfstring{ROC\_curve()}{ROC\_curve()}}
+{\footnotesize\ttfamily def project\+\_\+del5.\+Experiment.\+R\+O\+C\+\_\+curve (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{clfs }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Draw ROC curve for classifier
+compute TPR and FPR
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classproject__del5_1_1_experiment_a682243eb2b901f185e0d4fce09f2583a}\label{classproject__del5_1_1_experiment_a682243eb2b901f185e0d4fce09f2583a}} 
+\index{project\_del5.Experiment@{project\_del5.Experiment}!runCrossVal@{runCrossVal}}
+\index{runCrossVal@{runCrossVal}!project\_del5.Experiment@{project\_del5.Experiment}}
+\doxysubsubsection{\texorpdfstring{runCrossVal()}{runCrossVal()}}
+{\footnotesize\ttfamily def project\+\_\+del5.\+Experiment.\+run\+Cross\+Val (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{k }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}k: interger, number of fold for cross validation
+-----------
+Run cross validation with k-folds
+Return a df containing all predicted labels
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classproject__del5_1_1_experiment_a86864a398f85ebad2598f36950839574}\label{classproject__del5_1_1_experiment_a86864a398f85ebad2598f36950839574}} 
+\index{project\_del5.Experiment@{project\_del5.Experiment}!score@{score}}
+\index{score@{score}!project\_del5.Experiment@{project\_del5.Experiment}}
+\doxysubsubsection{\texorpdfstring{score()}{score()}}
+{\footnotesize\ttfamily def project\+\_\+del5.\+Experiment.\+score (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{y\+\_\+test,  }\item[{}]{y\+\_\+pred }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}y_test: This will be a list that contains test labels of each classifier. 
+(It only includes test labels of SimpleKNNClassifier this time.)
+y_pred: This will be a list that contains predicted labels of each classifier. 
+(It only includes predicted labels of SimpleKNNClassifier this time.)
+-----------
+Compute the accuracy of each classifier and present the result as a table.
+\end{DoxyVerb}
+ 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+project\+\_\+del5.\+py\end{DoxyCompactItemize}

@@ -1,0 +1,101 @@
+\hypertarget{classproject__del3_1_1_quant_data_set}{}\doxysection{project\+\_\+del3.\+Quant\+Data\+Set Class Reference}
+\label{classproject__del3_1_1_quant_data_set}\index{project\_del3.QuantDataSet@{project\_del3.QuantDataSet}}
+Inheritance diagram for project\+\_\+del3.\+Quant\+Data\+Set\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classproject__del3_1_1_quant_data_set}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \mbox{\hyperlink{classproject__del3_1_1_quant_data_set_a00e71b4f2c3c37875e37bbe2c8c7f2c2}{\+\_\+\+\_\+init\+\_\+\+\_\+}} (self, filename)
+\item 
+def \mbox{\hyperlink{classproject__del3_1_1_quant_data_set_a68b91d98d4e60532dc97327ef70f30a1}{clean}} (self)
+\item 
+def \mbox{\hyperlink{classproject__del3_1_1_quant_data_set_a68fc294c6825e5ba91e589098dfaa3b8}{explore}} (self)
+\item 
+def \mbox{\hyperlink{classproject__del3_1_1_quant_data_set_afaead7688e147368db63a90575e9f57d}{correlation}} (self)
+\item 
+def \mbox{\hyperlink{classproject__del3_1_1_quant_data_set_ac9c26f3fddd2e0206aa8c03801123e4d}{analysis}} (self, df)
+\item 
+\mbox{\Hypertarget{classproject__del3_1_1_quant_data_set_a0ffcf19a81ca5c19cc66814430da1637}\label{classproject__del3_1_1_quant_data_set_a0ffcf19a81ca5c19cc66814430da1637}} 
+def {\bfseries get} (self, slice1, slice2)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classproject__del3_1_1_quant_data_set_ae0ea2113be54899d067ee3d60c78d3bd}\label{classproject__del3_1_1_quant_data_set_ae0ea2113be54899d067ee3d60c78d3bd}} 
+{\bfseries df}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\begin{DoxyVerb} A dataset subclass for quantitative data \end{DoxyVerb}
+ 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classproject__del3_1_1_quant_data_set_a00e71b4f2c3c37875e37bbe2c8c7f2c2}\label{classproject__del3_1_1_quant_data_set_a00e71b4f2c3c37875e37bbe2c8c7f2c2}} 
+\index{project\_del3.QuantDataSet@{project\_del3.QuantDataSet}!\_\_init\_\_@{\_\_init\_\_}}
+\index{\_\_init\_\_@{\_\_init\_\_}!project\_del3.QuantDataSet@{project\_del3.QuantDataSet}}
+\doxysubsubsection{\texorpdfstring{\_\_init\_\_()}{\_\_init\_\_()}}
+{\footnotesize\ttfamily def project\+\_\+del3.\+Quant\+Data\+Set.\+\_\+\+\_\+init\+\_\+\+\_\+ (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{filename }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Create a new quantitative dataset instance
+
+filename          the name of the dataset
+\end{DoxyVerb}
+ 
+
+Reimplemented from \mbox{\hyperlink{classproject__del3_1_1_data_set}{project\+\_\+del3.\+Data\+Set}}.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classproject__del3_1_1_quant_data_set_ac9c26f3fddd2e0206aa8c03801123e4d}\label{classproject__del3_1_1_quant_data_set_ac9c26f3fddd2e0206aa8c03801123e4d}} 
+\index{project\_del3.QuantDataSet@{project\_del3.QuantDataSet}!analysis@{analysis}}
+\index{analysis@{analysis}!project\_del3.QuantDataSet@{project\_del3.QuantDataSet}}
+\doxysubsubsection{\texorpdfstring{analysis()}{analysis()}}
+{\footnotesize\ttfamily def project\+\_\+del3.\+Quant\+Data\+Set.\+analysis (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{df }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Analyze the dataset by getting the sum of each row and each column.
+Sort the data frame by a specific column value.
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classproject__del3_1_1_quant_data_set_a68b91d98d4e60532dc97327ef70f30a1}\label{classproject__del3_1_1_quant_data_set_a68b91d98d4e60532dc97327ef70f30a1}} 
+\index{project\_del3.QuantDataSet@{project\_del3.QuantDataSet}!clean@{clean}}
+\index{clean@{clean}!project\_del3.QuantDataSet@{project\_del3.QuantDataSet}}
+\doxysubsubsection{\texorpdfstring{clean()}{clean()}}
+{\footnotesize\ttfamily def project\+\_\+del3.\+Quant\+Data\+Set.\+clean (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Clean the quantitative data
+\end{DoxyVerb}
+ 
+
+Reimplemented from \mbox{\hyperlink{classproject__del3_1_1_data_set_a1dc17850e55dc69cb91ea5fe038af2ae}{project\+\_\+del3.\+Data\+Set}}.
+
+\mbox{\Hypertarget{classproject__del3_1_1_quant_data_set_afaead7688e147368db63a90575e9f57d}\label{classproject__del3_1_1_quant_data_set_afaead7688e147368db63a90575e9f57d}} 
+\index{project\_del3.QuantDataSet@{project\_del3.QuantDataSet}!correlation@{correlation}}
+\index{correlation@{correlation}!project\_del3.QuantDataSet@{project\_del3.QuantDataSet}}
+\doxysubsubsection{\texorpdfstring{correlation()}{correlation()}}
+{\footnotesize\ttfamily def project\+\_\+del3.\+Quant\+Data\+Set.\+correlation (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Get the r value to find a correlation between two columns
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classproject__del3_1_1_quant_data_set_a68fc294c6825e5ba91e589098dfaa3b8}\label{classproject__del3_1_1_quant_data_set_a68fc294c6825e5ba91e589098dfaa3b8}} 
+\index{project\_del3.QuantDataSet@{project\_del3.QuantDataSet}!explore@{explore}}
+\index{explore@{explore}!project\_del3.QuantDataSet@{project\_del3.QuantDataSet}}
+\doxysubsubsection{\texorpdfstring{explore()}{explore()}}
+{\footnotesize\ttfamily def project\+\_\+del3.\+Quant\+Data\+Set.\+explore (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Explore the dataset by getting the number of rows and columns, column names, and descriptive information.
+Explore by visualizations.
+\end{DoxyVerb}
+ 
+
+Reimplemented from \mbox{\hyperlink{classproject__del3_1_1_data_set_a300aeb6d54fd8c4f6be24d42ce5bd4e8}{project\+\_\+del3.\+Data\+Set}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+project\+\_\+del3.\+py\end{DoxyCompactItemize}

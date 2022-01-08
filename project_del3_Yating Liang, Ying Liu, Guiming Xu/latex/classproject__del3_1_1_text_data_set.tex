@@ -1,0 +1,175 @@
+\hypertarget{classproject__del3_1_1_text_data_set}{}\doxysection{project\+\_\+del3.\+Text\+Data\+Set Class Reference}
+\label{classproject__del3_1_1_text_data_set}\index{project\_del3.TextDataSet@{project\_del3.TextDataSet}}
+Inheritance diagram for project\+\_\+del3.\+Text\+Data\+Set\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classproject__del3_1_1_text_data_set}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \mbox{\hyperlink{classproject__del3_1_1_text_data_set_af26cc531ea36989ee047239d43af98bc}{\+\_\+\+\_\+init\+\_\+\+\_\+}} (self, filename, language=\textquotesingle{}english\textquotesingle{})
+\item 
+def \mbox{\hyperlink{classproject__del3_1_1_text_data_set_a9dad053ae35ef7123c0d78fe79854c19}{clean}} (self)
+\item 
+def \mbox{\hyperlink{classproject__del3_1_1_text_data_set_a811109f8ccf8cd2262c142af45160613}{word\+Count}} (self, j)
+\item 
+def \mbox{\hyperlink{classproject__del3_1_1_text_data_set_a73d9a316979ce1af67e112fb32e17ae4}{stopword\+Remove}} (self, serie)
+\item 
+def \mbox{\hyperlink{classproject__del3_1_1_text_data_set_a7bce5de6790bad07980f8abd92b4c3ba}{punctuation\+Remove}} (self, serie)
+\item 
+def \mbox{\hyperlink{classproject__del3_1_1_text_data_set_ab8bd80dd14f6ab79b94f59f64d243d06}{top\+Words}} (self, n)
+\item 
+def \mbox{\hyperlink{classproject__del3_1_1_text_data_set_a58c562f45503ee0661ac91caa5ea2c5f}{explore}} (self)
+\item 
+def \mbox{\hyperlink{classproject__del3_1_1_text_data_set_a2215f78af03748f14b40a79312b8e554}{stemming}} (self)
+\item 
+def \mbox{\hyperlink{classproject__del3_1_1_text_data_set_abe459987e93a08906a51ebe423d36eba}{Tfidf}} (self)
+\item 
+def \mbox{\hyperlink{classproject__del3_1_1_text_data_set_adf0e743a14d50e1796092f62a8b54d5c}{vectorization}} (self)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classproject__del3_1_1_text_data_set_ab30b57a57887dae77898de5274122157}\label{classproject__del3_1_1_text_data_set_ab30b57a57887dae77898de5274122157}} 
+{\bfseries lang}
+\item 
+\mbox{\Hypertarget{classproject__del3_1_1_text_data_set_a7b93096c58e5ffb9bd5997098a7d289d}\label{classproject__del3_1_1_text_data_set_a7b93096c58e5ffb9bd5997098a7d289d}} 
+{\bfseries df}
+\item 
+\mbox{\Hypertarget{classproject__del3_1_1_text_data_set_a74b7f6d930bf690dfab7983bfc6ad564}\label{classproject__del3_1_1_text_data_set_a74b7f6d930bf690dfab7983bfc6ad564}} 
+{\bfseries j}
+\item 
+\mbox{\Hypertarget{classproject__del3_1_1_text_data_set_aae0b419ff1213bc27d1c5af11301776c}\label{classproject__del3_1_1_text_data_set_aae0b419ff1213bc27d1c5af11301776c}} 
+{\bfseries result\+\_\+serie}
+\item 
+\mbox{\Hypertarget{classproject__del3_1_1_text_data_set_aed9752602036cdd294dd82b6cd424991}\label{classproject__del3_1_1_text_data_set_aed9752602036cdd294dd82b6cd424991}} 
+{\bfseries temp}
+\item 
+\mbox{\Hypertarget{classproject__del3_1_1_text_data_set_a4c474ed5a0ce638fbd56da34280be8c4}\label{classproject__del3_1_1_text_data_set_a4c474ed5a0ce638fbd56da34280be8c4}} 
+{\bfseries topwords}
+\item 
+\mbox{\Hypertarget{classproject__del3_1_1_text_data_set_a06bde84bfca149927ecc1dedb4ae6ba0}\label{classproject__del3_1_1_text_data_set_a06bde84bfca149927ecc1dedb4ae6ba0}} 
+{\bfseries m}
+\item 
+\mbox{\Hypertarget{classproject__del3_1_1_text_data_set_af517e1e2c3d9c5233d86e7ce0bc321db}\label{classproject__del3_1_1_text_data_set_af517e1e2c3d9c5233d86e7ce0bc321db}} 
+{\bfseries X}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\begin{DoxyVerb} A dataset subclass for Text Data \end{DoxyVerb}
+ 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classproject__del3_1_1_text_data_set_af26cc531ea36989ee047239d43af98bc}\label{classproject__del3_1_1_text_data_set_af26cc531ea36989ee047239d43af98bc}} 
+\index{project\_del3.TextDataSet@{project\_del3.TextDataSet}!\_\_init\_\_@{\_\_init\_\_}}
+\index{\_\_init\_\_@{\_\_init\_\_}!project\_del3.TextDataSet@{project\_del3.TextDataSet}}
+\doxysubsubsection{\texorpdfstring{\_\_init\_\_()}{\_\_init\_\_()}}
+{\footnotesize\ttfamily def project\+\_\+del3.\+Text\+Data\+Set.\+\_\+\+\_\+init\+\_\+\+\_\+ (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{filename,  }\item[{}]{language = {\ttfamily \textquotesingle{}english\textquotesingle{}} }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Create a new text dataset instance
+
+filename          the name of the dataset
+language          string: The default language is English
+\end{DoxyVerb}
+ 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classproject__del3_1_1_text_data_set_a9dad053ae35ef7123c0d78fe79854c19}\label{classproject__del3_1_1_text_data_set_a9dad053ae35ef7123c0d78fe79854c19}} 
+\index{project\_del3.TextDataSet@{project\_del3.TextDataSet}!clean@{clean}}
+\index{clean@{clean}!project\_del3.TextDataSet@{project\_del3.TextDataSet}}
+\doxysubsubsection{\texorpdfstring{clean()}{clean()}}
+{\footnotesize\ttfamily def project\+\_\+del3.\+Text\+Data\+Set.\+clean (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Clean columns of the dataset
+remove useless columns
+add a new column - "text_length" denotes the number of words in each review
+remove punctuation and stopwords
+tokenization
+\end{DoxyVerb}
+ 
+
+Reimplemented from \mbox{\hyperlink{classproject__del3_1_1_data_set_a1dc17850e55dc69cb91ea5fe038af2ae}{project\+\_\+del3.\+Data\+Set}}.
+
+\mbox{\Hypertarget{classproject__del3_1_1_text_data_set_a58c562f45503ee0661ac91caa5ea2c5f}\label{classproject__del3_1_1_text_data_set_a58c562f45503ee0661ac91caa5ea2c5f}} 
+\index{project\_del3.TextDataSet@{project\_del3.TextDataSet}!explore@{explore}}
+\index{explore@{explore}!project\_del3.TextDataSet@{project\_del3.TextDataSet}}
+\doxysubsubsection{\texorpdfstring{explore()}{explore()}}
+{\footnotesize\ttfamily def project\+\_\+del3.\+Text\+Data\+Set.\+explore (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Create three data visualization displays:
+bar chart: count of star ratings,
+word cloud,
+highest 10 wordcount frequency histogram
+\end{DoxyVerb}
+ 
+
+Reimplemented from \mbox{\hyperlink{classproject__del3_1_1_data_set_a300aeb6d54fd8c4f6be24d42ce5bd4e8}{project\+\_\+del3.\+Data\+Set}}.
+
+\mbox{\Hypertarget{classproject__del3_1_1_text_data_set_a7bce5de6790bad07980f8abd92b4c3ba}\label{classproject__del3_1_1_text_data_set_a7bce5de6790bad07980f8abd92b4c3ba}} 
+\index{project\_del3.TextDataSet@{project\_del3.TextDataSet}!punctuationRemove@{punctuationRemove}}
+\index{punctuationRemove@{punctuationRemove}!project\_del3.TextDataSet@{project\_del3.TextDataSet}}
+\doxysubsubsection{\texorpdfstring{punctuationRemove()}{punctuationRemove()}}
+{\footnotesize\ttfamily def project\+\_\+del3.\+Text\+Data\+Set.\+punctuation\+Remove (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{serie }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Removes any punctuations such as !"#$%&\'()*+,-./:;<=>?@[\\]^_`{|}~
+serie    input list or column
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classproject__del3_1_1_text_data_set_a2215f78af03748f14b40a79312b8e554}\label{classproject__del3_1_1_text_data_set_a2215f78af03748f14b40a79312b8e554}} 
+\index{project\_del3.TextDataSet@{project\_del3.TextDataSet}!stemming@{stemming}}
+\index{stemming@{stemming}!project\_del3.TextDataSet@{project\_del3.TextDataSet}}
+\doxysubsubsection{\texorpdfstring{stemming()}{stemming()}}
+{\footnotesize\ttfamily def project\+\_\+del3.\+Text\+Data\+Set.\+stemming (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Extracts the base form of the words by removing affixes from them
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classproject__del3_1_1_text_data_set_a73d9a316979ce1af67e112fb32e17ae4}\label{classproject__del3_1_1_text_data_set_a73d9a316979ce1af67e112fb32e17ae4}} 
+\index{project\_del3.TextDataSet@{project\_del3.TextDataSet}!stopwordRemove@{stopwordRemove}}
+\index{stopwordRemove@{stopwordRemove}!project\_del3.TextDataSet@{project\_del3.TextDataSet}}
+\doxysubsubsection{\texorpdfstring{stopwordRemove()}{stopwordRemove()}}
+{\footnotesize\ttfamily def project\+\_\+del3.\+Text\+Data\+Set.\+stopword\+Remove (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{serie }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Removes any stopwords such as “and”, “but”, and tokenization
+serie    input list or column
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classproject__del3_1_1_text_data_set_abe459987e93a08906a51ebe423d36eba}\label{classproject__del3_1_1_text_data_set_abe459987e93a08906a51ebe423d36eba}} 
+\index{project\_del3.TextDataSet@{project\_del3.TextDataSet}!Tfidf@{Tfidf}}
+\index{Tfidf@{Tfidf}!project\_del3.TextDataSet@{project\_del3.TextDataSet}}
+\doxysubsubsection{\texorpdfstring{Tfidf()}{Tfidf()}}
+{\footnotesize\ttfamily def project\+\_\+del3.\+Text\+Data\+Set.\+Tfidf (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Return the term frequency–inverse document frequency value
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classproject__del3_1_1_text_data_set_ab8bd80dd14f6ab79b94f59f64d243d06}\label{classproject__del3_1_1_text_data_set_ab8bd80dd14f6ab79b94f59f64d243d06}} 
+\index{project\_del3.TextDataSet@{project\_del3.TextDataSet}!topWords@{topWords}}
+\index{topWords@{topWords}!project\_del3.TextDataSet@{project\_del3.TextDataSet}}
+\doxysubsubsection{\texorpdfstring{topWords()}{topWords()}}
+{\footnotesize\ttfamily def project\+\_\+del3.\+Text\+Data\+Set.\+top\+Words (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{n }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Return the highest frequncy n words
+n     the number of top highest frequncy
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classproject__del3_1_1_text_data_set_adf0e743a14d50e1796092f62a8b54d5c}\label{classproject__del3_1_1_text_data_set_adf0e743a14d50e1796092f62a8b54d5c}} 
+\index{project\_del3.TextDataSet@{project\_del3.TextDataSet}!vectorization@{vectorization}}
+\index{vectorization@{vectorization}!project\_del3.TextDataSet@{project\_del3.TextDataSet}}
+\doxysubsubsection{\texorpdfstring{vectorization()}{vectorization()}}
+{\footnotesize\ttfamily def project\+\_\+del3.\+Text\+Data\+Set.\+vectorization (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Vectorization of text, also return bag of words
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classproject__del3_1_1_text_data_set_a811109f8ccf8cd2262c142af45160613}\label{classproject__del3_1_1_text_data_set_a811109f8ccf8cd2262c142af45160613}} 
+\index{project\_del3.TextDataSet@{project\_del3.TextDataSet}!wordCount@{wordCount}}
+\index{wordCount@{wordCount}!project\_del3.TextDataSet@{project\_del3.TextDataSet}}
+\doxysubsubsection{\texorpdfstring{wordCount()}{wordCount()}}
+{\footnotesize\ttfamily def project\+\_\+del3.\+Text\+Data\+Set.\+word\+Count (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{j }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Count how many words in certain row/index
+j        the index jth row
+\end{DoxyVerb}
+ 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+project\+\_\+del3.\+py\end{DoxyCompactItemize}

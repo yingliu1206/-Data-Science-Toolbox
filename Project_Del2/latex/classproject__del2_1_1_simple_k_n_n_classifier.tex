@@ -1,0 +1,77 @@
+\hypertarget{classproject__del2_1_1_simple_k_n_n_classifier}{}\doxysection{project\+\_\+del2.\+Simple\+K\+N\+N\+Classifier Class Reference}
+\label{classproject__del2_1_1_simple_k_n_n_classifier}\index{project\_del2.SimpleKNNClassifier@{project\_del2.SimpleKNNClassifier}}
+Inheritance diagram for project\+\_\+del2.\+Simple\+K\+N\+N\+Classifier\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classproject__del2_1_1_simple_k_n_n_classifier}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \mbox{\hyperlink{classproject__del2_1_1_simple_k_n_n_classifier_a7e6d5662dae2f03985a9100028ff7584}{\+\_\+\+\_\+init\+\_\+\+\_\+}} (self, k=3, dataset\+\_\+type=None, dataset=None, labels=-\/1, predictor=None)
+\item 
+def \mbox{\hyperlink{classproject__del2_1_1_simple_k_n_n_classifier_a1a4df32d0e99aaa66189f2e71ccc76c4}{train}} (self, df, k=3, algorithm=\textquotesingle{}auto\textquotesingle{}, metric=\textquotesingle{}minkowski\textquotesingle{})
+\item 
+def \mbox{\hyperlink{classproject__del2_1_1_simple_k_n_n_classifier_ad462420a79551323f8c736ad2837b653}{test}} (self, df)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classproject__del2_1_1_simple_k_n_n_classifier_a4a374cc03d3820d783f662915518011b}\label{classproject__del2_1_1_simple_k_n_n_classifier_a4a374cc03d3820d783f662915518011b}} 
+{\bfseries algorithm}
+\item 
+\mbox{\Hypertarget{classproject__del2_1_1_simple_k_n_n_classifier_ae98023d6c19b267e0052c9d39dfe336f}\label{classproject__del2_1_1_simple_k_n_n_classifier_ae98023d6c19b267e0052c9d39dfe336f}} 
+{\bfseries metric}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\begin{DoxyVerb}use the simple KNN classifier to analyze
+\end{DoxyVerb}
+ 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classproject__del2_1_1_simple_k_n_n_classifier_a7e6d5662dae2f03985a9100028ff7584}\label{classproject__del2_1_1_simple_k_n_n_classifier_a7e6d5662dae2f03985a9100028ff7584}} 
+\index{project\_del2.SimpleKNNClassifier@{project\_del2.SimpleKNNClassifier}!\_\_init\_\_@{\_\_init\_\_}}
+\index{\_\_init\_\_@{\_\_init\_\_}!project\_del2.SimpleKNNClassifier@{project\_del2.SimpleKNNClassifier}}
+\doxysubsubsection{\texorpdfstring{\_\_init\_\_()}{\_\_init\_\_()}}
+{\footnotesize\ttfamily def project\+\_\+del2.\+Simple\+K\+N\+N\+Classifier.\+\_\+\+\_\+init\+\_\+\+\_\+ (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{k = {\ttfamily 3},  }\item[{}]{dataset\+\_\+type = {\ttfamily None},  }\item[{}]{dataset = {\ttfamily None},  }\item[{}]{labels = {\ttfamily -\/1},  }\item[{}]{predictor = {\ttfamily None} }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}initialize the default attributes
+k: integer  number of nearesr neighbors to determine classification
+labels: integer       index of label column in the data
+predictor: integer    index of predictors columns in the data(optional)
+\end{DoxyVerb}
+ 
+
+Reimplemented from \mbox{\hyperlink{classproject__del2_1_1_classifier_algorithm_a7ea509c69c760ea7d8175e206faea577}{project\+\_\+del2.\+Classifier\+Algorithm}}.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classproject__del2_1_1_simple_k_n_n_classifier_ad462420a79551323f8c736ad2837b653}\label{classproject__del2_1_1_simple_k_n_n_classifier_ad462420a79551323f8c736ad2837b653}} 
+\index{project\_del2.SimpleKNNClassifier@{project\_del2.SimpleKNNClassifier}!test@{test}}
+\index{test@{test}!project\_del2.SimpleKNNClassifier@{project\_del2.SimpleKNNClassifier}}
+\doxysubsubsection{\texorpdfstring{test()}{test()}}
+{\footnotesize\ttfamily def project\+\_\+del2.\+Simple\+K\+N\+N\+Classifier.\+test (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{df }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}test the simple KNN model
+\end{DoxyVerb}
+ 
+
+Reimplemented from \mbox{\hyperlink{classproject__del2_1_1_classifier_algorithm_aa4e05d378a3d73079e49048f736fafc6}{project\+\_\+del2.\+Classifier\+Algorithm}}.
+
+\mbox{\Hypertarget{classproject__del2_1_1_simple_k_n_n_classifier_a1a4df32d0e99aaa66189f2e71ccc76c4}\label{classproject__del2_1_1_simple_k_n_n_classifier_a1a4df32d0e99aaa66189f2e71ccc76c4}} 
+\index{project\_del2.SimpleKNNClassifier@{project\_del2.SimpleKNNClassifier}!train@{train}}
+\index{train@{train}!project\_del2.SimpleKNNClassifier@{project\_del2.SimpleKNNClassifier}}
+\doxysubsubsection{\texorpdfstring{train()}{train()}}
+{\footnotesize\ttfamily def project\+\_\+del2.\+Simple\+K\+N\+N\+Classifier.\+train (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{df,  }\item[{}]{k = {\ttfamily 3},  }\item[{}]{algorithm = {\ttfamily \textquotesingle{}auto\textquotesingle{}},  }\item[{}]{metric = {\ttfamily \textquotesingle{}minkowski\textquotesingle{}} }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}train the simple KNN model
+\end{DoxyVerb}
+ 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+project\+\_\+del2.\+py\end{DoxyCompactItemize}

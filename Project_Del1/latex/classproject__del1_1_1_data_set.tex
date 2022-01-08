@@ -1,0 +1,74 @@
+\hypertarget{classproject__del1_1_1_data_set}{}\doxysection{project\+\_\+del1.\+Data\+Set Class Reference}
+\label{classproject__del1_1_1_data_set}\index{project\_del1.DataSet@{project\_del1.DataSet}}
+Inheritance diagram for project\+\_\+del1.\+Data\+Set\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=1.400000cm]{classproject__del1_1_1_data_set}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classproject__del1_1_1_data_set_a03f74f63abb298465ac3d6dd383e4ff4}\label{classproject__del1_1_1_data_set_a03f74f63abb298465ac3d6dd383e4ff4}} 
+def {\bfseries \+\_\+\+\_\+init\+\_\+\+\_\+} (self, filename)
+\item 
+\mbox{\Hypertarget{classproject__del1_1_1_data_set_a8a7d1f26f22bcc716a67b66f71708eef}\label{classproject__del1_1_1_data_set_a8a7d1f26f22bcc716a67b66f71708eef}} 
+def {\bfseries read} (self)
+\item 
+def \mbox{\hyperlink{classproject__del1_1_1_data_set_a5c9d072e587f1438d5619cf84efe2b98}{clean}} (self, df)
+\item 
+def \mbox{\hyperlink{classproject__del1_1_1_data_set_ad51918ab499c2df527ad75e93fe82e20}{explore}} (self)
+\item 
+def \mbox{\hyperlink{classproject__del1_1_1_data_set_adfda8a7205f10b8542e1c729ad70ad52}{head}} (self, n)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classproject__del1_1_1_data_set_a018f1516069f4a67832c98cbbbddd1f9}\label{classproject__del1_1_1_data_set_a018f1516069f4a67832c98cbbbddd1f9}} 
+{\bfseries df}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\begin{DoxyVerb}A dataset class \end{DoxyVerb}
+ 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classproject__del1_1_1_data_set_a5c9d072e587f1438d5619cf84efe2b98}\label{classproject__del1_1_1_data_set_a5c9d072e587f1438d5619cf84efe2b98}} 
+\index{project\_del1.DataSet@{project\_del1.DataSet}!clean@{clean}}
+\index{clean@{clean}!project\_del1.DataSet@{project\_del1.DataSet}}
+\doxysubsubsection{\texorpdfstring{clean()}{clean()}}
+{\footnotesize\ttfamily def project\+\_\+del1.\+Data\+Set.\+clean (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{df }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Clean the dataset and remove NA values  
+\end{DoxyVerb}
+ ~\newline
+ 
+
+Reimplemented in \mbox{\hyperlink{classproject__del1_1_1_quant_data_set_a9f9bd8ddf34947b75fdbf4ca01afec94}{project\+\_\+del1.\+Quant\+Data\+Set}}, \mbox{\hyperlink{classproject__del1_1_1_time_series_data_set_a3da7ea450fda6527bf5f226e13136ff5}{project\+\_\+del1.\+Time\+Series\+Data\+Set}}, \mbox{\hyperlink{classproject__del1_1_1_qual_data_set_ad0a0002db64b6d711ff58e2762f82fec}{project\+\_\+del1.\+Qual\+Data\+Set}}, and \mbox{\hyperlink{classproject__del1_1_1_text_data_set_a4b35fdc9d6c6794b4ad745c48a520a66}{project\+\_\+del1.\+Text\+Data\+Set}}.
+
+\mbox{\Hypertarget{classproject__del1_1_1_data_set_ad51918ab499c2df527ad75e93fe82e20}\label{classproject__del1_1_1_data_set_ad51918ab499c2df527ad75e93fe82e20}} 
+\index{project\_del1.DataSet@{project\_del1.DataSet}!explore@{explore}}
+\index{explore@{explore}!project\_del1.DataSet@{project\_del1.DataSet}}
+\doxysubsubsection{\texorpdfstring{explore()}{explore()}}
+{\footnotesize\ttfamily def project\+\_\+del1.\+Data\+Set.\+explore (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Create two data visualization displays
+\end{DoxyVerb}
+ 
+
+Reimplemented in \mbox{\hyperlink{classproject__del1_1_1_qual_data_set_af524236d4bf01a7b084ee05a76375488}{project\+\_\+del1.\+Qual\+Data\+Set}}, \mbox{\hyperlink{classproject__del1_1_1_quant_data_set_aeb28d799fe442d36c8b3279ac51c0678}{project\+\_\+del1.\+Quant\+Data\+Set}}, and \mbox{\hyperlink{classproject__del1_1_1_time_series_data_set_a426de7ed8cf123c99b162ff46070576f}{project\+\_\+del1.\+Time\+Series\+Data\+Set}}.
+
+\mbox{\Hypertarget{classproject__del1_1_1_data_set_adfda8a7205f10b8542e1c729ad70ad52}\label{classproject__del1_1_1_data_set_adfda8a7205f10b8542e1c729ad70ad52}} 
+\index{project\_del1.DataSet@{project\_del1.DataSet}!head@{head}}
+\index{head@{head}!project\_del1.DataSet@{project\_del1.DataSet}}
+\doxysubsubsection{\texorpdfstring{head()}{head()}}
+{\footnotesize\ttfamily def project\+\_\+del1.\+Data\+Set.\+head (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{n }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}show/print the first n rows of the data
+\end{DoxyVerb}
+ 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+project\+\_\+del1.\+py\end{DoxyCompactItemize}

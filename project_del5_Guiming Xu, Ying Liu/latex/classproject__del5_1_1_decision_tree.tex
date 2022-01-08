@@ -1,0 +1,104 @@
+\hypertarget{classproject__del5_1_1_decision_tree}{}\doxysection{project\+\_\+del5.\+Decision\+Tree Class Reference}
+\label{classproject__del5_1_1_decision_tree}\index{project\_del5.DecisionTree@{project\_del5.DecisionTree}}
+Inheritance diagram for project\+\_\+del5.\+Decision\+Tree\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{classproject__del5_1_1_decision_tree}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \mbox{\hyperlink{classproject__del5_1_1_decision_tree_a7a14bc2a3755a2523cc6e65fb519ad00}{\+\_\+\+\_\+init\+\_\+\+\_\+}} (self, data, label)
+\item 
+\mbox{\Hypertarget{classproject__del5_1_1_decision_tree_acdd1eec429751ffd2fba70bf3f15e41d}\label{classproject__del5_1_1_decision_tree_acdd1eec429751ffd2fba70bf3f15e41d}} 
+def {\bfseries get\+\_\+\+X\+\_\+train} (self)
+\item 
+\mbox{\Hypertarget{classproject__del5_1_1_decision_tree_a6b696d542adcfa27d11c413176713935}\label{classproject__del5_1_1_decision_tree_a6b696d542adcfa27d11c413176713935}} 
+def {\bfseries get\+\_\+y\+\_\+train} (self)
+\item 
+\mbox{\Hypertarget{classproject__del5_1_1_decision_tree_aaa67b35d99526f1bf66413bad8bdedf6}\label{classproject__del5_1_1_decision_tree_aaa67b35d99526f1bf66413bad8bdedf6}} 
+def {\bfseries get\+\_\+\+X\+\_\+test} (self)
+\item 
+def \mbox{\hyperlink{classproject__del5_1_1_decision_tree_a6d65be5f6942c5febad43bf475b7877f}{train}} (self, X, y)
+\item 
+def \mbox{\hyperlink{classproject__del5_1_1_decision_tree_ab5dbc6166b2096a68e1fa268c1ee34da}{test}} (self, y)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classproject__del5_1_1_decision_tree_ab8b081081275c1fec8eada62c3ce32a1}\label{classproject__del5_1_1_decision_tree_ab8b081081275c1fec8eada62c3ce32a1}} 
+{\bfseries my\+Data}
+\item 
+\mbox{\Hypertarget{classproject__del5_1_1_decision_tree_a2903cdba785f754b59a3aee1e2a904e8}\label{classproject__del5_1_1_decision_tree_a2903cdba785f754b59a3aee1e2a904e8}} 
+{\bfseries label}
+\item 
+\mbox{\Hypertarget{classproject__del5_1_1_decision_tree_a5d62f064e39c7d0769acc89f9ebc9747}\label{classproject__del5_1_1_decision_tree_a5d62f064e39c7d0769acc89f9ebc9747}} 
+{\bfseries predict\+\_\+result}
+\item 
+\mbox{\Hypertarget{classproject__del5_1_1_decision_tree_ada6061d958f6573a3dcb8b3d74473910}\label{classproject__del5_1_1_decision_tree_ada6061d958f6573a3dcb8b3d74473910}} 
+{\bfseries train\+\_\+data}
+\item 
+\mbox{\Hypertarget{classproject__del5_1_1_decision_tree_a0fbf6e9f79050926fc1eeae6bb571279}\label{classproject__del5_1_1_decision_tree_a0fbf6e9f79050926fc1eeae6bb571279}} 
+{\bfseries test\+\_\+data}
+\item 
+\mbox{\Hypertarget{classproject__del5_1_1_decision_tree_a1feb99808ded103a63f717881727c8a6}\label{classproject__del5_1_1_decision_tree_a1feb99808ded103a63f717881727c8a6}} 
+\mbox{\hyperlink{classproject__del5_1_1_decision_tree_a1feb99808ded103a63f717881727c8a6}{dt}}
+\begin{DoxyCompactList}\small\item\em O(n) = 1 \#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\# S(n) = 408 \#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classproject__del5_1_1_decision_tree_ad97e900b4e994ca62163a26b46014f99}\label{classproject__del5_1_1_decision_tree_ad97e900b4e994ca62163a26b46014f99}} 
+\mbox{\hyperlink{classproject__del5_1_1_decision_tree_ad97e900b4e994ca62163a26b46014f99}{true\+\_\+result}}
+\begin{DoxyCompactList}\small\item\em O(n) = n$^\wedge$3 $\ast$ log(n) \#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\# S(n) = 1632 + 21224 + 21224 + 408 + 408 = 44896 \#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\begin{DoxyVerb}Inheritate from Tree and ClassifierAlgorithm
+\end{DoxyVerb}
+ 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classproject__del5_1_1_decision_tree_a7a14bc2a3755a2523cc6e65fb519ad00}\label{classproject__del5_1_1_decision_tree_a7a14bc2a3755a2523cc6e65fb519ad00}} 
+\index{project\_del5.DecisionTree@{project\_del5.DecisionTree}!\_\_init\_\_@{\_\_init\_\_}}
+\index{\_\_init\_\_@{\_\_init\_\_}!project\_del5.DecisionTree@{project\_del5.DecisionTree}}
+\doxysubsubsection{\texorpdfstring{\_\_init\_\_()}{\_\_init\_\_()}}
+{\footnotesize\ttfamily def project\+\_\+del5.\+Decision\+Tree.\+\_\+\+\_\+init\+\_\+\+\_\+ (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{predictor,  }\item[{}]{response }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}initialize the default attributes
+labels: integer       index of label column in the data
+predictor: integer    index of predictors columns in the data(optional)
+\end{DoxyVerb}
+ 
+
+Reimplemented from \mbox{\hyperlink{classproject__del5_1_1_classifier_algorithm_aaeb5c209cddf67bf128047768e16f647}{project\+\_\+del5.\+Classifier\+Algorithm}}.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classproject__del5_1_1_decision_tree_ab5dbc6166b2096a68e1fa268c1ee34da}\label{classproject__del5_1_1_decision_tree_ab5dbc6166b2096a68e1fa268c1ee34da}} 
+\index{project\_del5.DecisionTree@{project\_del5.DecisionTree}!test@{test}}
+\index{test@{test}!project\_del5.DecisionTree@{project\_del5.DecisionTree}}
+\doxysubsubsection{\texorpdfstring{test()}{test()}}
+{\footnotesize\ttfamily def project\+\_\+del5.\+Decision\+Tree.\+test (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{y }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}test on the X_test and then plot the tree
+\end{DoxyVerb}
+ 
+
+Reimplemented from \mbox{\hyperlink{classproject__del5_1_1_classifier_algorithm_a4497959f29c623c1f8291c9be8be2892}{project\+\_\+del5.\+Classifier\+Algorithm}}.
+
+\mbox{\Hypertarget{classproject__del5_1_1_decision_tree_a6d65be5f6942c5febad43bf475b7877f}\label{classproject__del5_1_1_decision_tree_a6d65be5f6942c5febad43bf475b7877f}} 
+\index{project\_del5.DecisionTree@{project\_del5.DecisionTree}!train@{train}}
+\index{train@{train}!project\_del5.DecisionTree@{project\_del5.DecisionTree}}
+\doxysubsubsection{\texorpdfstring{train()}{train()}}
+{\footnotesize\ttfamily def project\+\_\+del5.\+Decision\+Tree.\+train (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{X,  }\item[{}]{y }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}to train the decision tree model
+\end{DoxyVerb}
+ 
+
+Reimplemented from \mbox{\hyperlink{classproject__del5_1_1_classifier_algorithm_ab2e86d767efad34681d57607e6fffe23}{project\+\_\+del5.\+Classifier\+Algorithm}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+project\+\_\+del5.\+py\end{DoxyCompactItemize}

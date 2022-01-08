@@ -1,0 +1,110 @@
+\hypertarget{classproject__del5_1_1_qual_data_set}{}\doxysection{project\+\_\+del5.\+Qual\+Data\+Set Class Reference}
+\label{classproject__del5_1_1_qual_data_set}\index{project\_del5.QualDataSet@{project\_del5.QualDataSet}}
+Inheritance diagram for project\+\_\+del5.\+Qual\+Data\+Set\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classproject__del5_1_1_qual_data_set}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classproject__del5_1_1_qual_data_set_a4fe02a774ef08c9cdddf29001042ebc1}\label{classproject__del5_1_1_qual_data_set_a4fe02a774ef08c9cdddf29001042ebc1}} 
+def {\bfseries \+\_\+\+\_\+init\+\_\+\+\_\+} (self, filename)
+\item 
+def \mbox{\hyperlink{classproject__del5_1_1_qual_data_set_a0497115fe29ee864e7df7637e8a77d4b}{clean}} (self, columns=\char`\"{}all\char`\"{})
+\item 
+def \mbox{\hyperlink{classproject__del5_1_1_qual_data_set_a5d9000161c4c8b86b793e8830d57b043}{convert\+Type}} (self, col, datatype)
+\item 
+def \mbox{\hyperlink{classproject__del5_1_1_qual_data_set_a964325d8605cfcd886614855e7ea5bc3}{explore}} (self, num\+\_\+target)
+\item 
+def \mbox{\hyperlink{classproject__del5_1_1_qual_data_set_a35fb6ae6186896ea3af31df4516bf3ee}{\+\_\+\+\_\+getitem\+\_\+\+\_\+}} (self, j)
+\item 
+def \mbox{\hyperlink{classproject__del5_1_1_qual_data_set_a8daf2dc8e6d23454efee9b2e414d9d34}{get\+Dim}} (self)
+\item 
+def \mbox{\hyperlink{classproject__del5_1_1_qual_data_set_a904fc1eaf7cf554a3e977e4ec2d6bce3}{get\+Type}} (self)
+\item 
+def \mbox{\hyperlink{classproject__del5_1_1_qual_data_set_ac78990f50a9468d4d8d0cc1d590421a6}{value\+Count}} (self, col)
+\item 
+def \mbox{\hyperlink{classproject__del5_1_1_qual_data_set_a27cfa68b543e64f32d772a1c62a54509}{one\+Hot\+Encoding}} (self, col\+\_\+list)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classproject__del5_1_1_qual_data_set_ae8c148a56f958bcb2396976aa433e3ec}\label{classproject__del5_1_1_qual_data_set_ae8c148a56f958bcb2396976aa433e3ec}} 
+{\bfseries df}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\begin{DoxyVerb}A dataset subclass for Qualitative Data \end{DoxyVerb}
+ 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classproject__del5_1_1_qual_data_set_a35fb6ae6186896ea3af31df4516bf3ee}\label{classproject__del5_1_1_qual_data_set_a35fb6ae6186896ea3af31df4516bf3ee}} 
+\index{project\_del5.QualDataSet@{project\_del5.QualDataSet}!\_\_getitem\_\_@{\_\_getitem\_\_}}
+\index{\_\_getitem\_\_@{\_\_getitem\_\_}!project\_del5.QualDataSet@{project\_del5.QualDataSet}}
+\doxysubsubsection{\texorpdfstring{\_\_getitem\_\_()}{\_\_getitem\_\_()}}
+{\footnotesize\ttfamily def project\+\_\+del5.\+Qual\+Data\+Set.\+\_\+\+\_\+getitem\+\_\+\+\_\+ (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{j }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Return jth row of data\end{DoxyVerb}
+ \mbox{\Hypertarget{classproject__del5_1_1_qual_data_set_a0497115fe29ee864e7df7637e8a77d4b}\label{classproject__del5_1_1_qual_data_set_a0497115fe29ee864e7df7637e8a77d4b}} 
+\index{project\_del5.QualDataSet@{project\_del5.QualDataSet}!clean@{clean}}
+\index{clean@{clean}!project\_del5.QualDataSet@{project\_del5.QualDataSet}}
+\doxysubsubsection{\texorpdfstring{clean()}{clean()}}
+{\footnotesize\ttfamily def project\+\_\+del5.\+Qual\+Data\+Set.\+clean (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{columns = {\ttfamily \char`\"{}all\char`\"{}} }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}clean the data, such as remove NA, convert to lowercase letters, split numericals and text
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classproject__del5_1_1_qual_data_set_a5d9000161c4c8b86b793e8830d57b043}\label{classproject__del5_1_1_qual_data_set_a5d9000161c4c8b86b793e8830d57b043}} 
+\index{project\_del5.QualDataSet@{project\_del5.QualDataSet}!convertType@{convertType}}
+\index{convertType@{convertType}!project\_del5.QualDataSet@{project\_del5.QualDataSet}}
+\doxysubsubsection{\texorpdfstring{convertType()}{convertType()}}
+{\footnotesize\ttfamily def project\+\_\+del5.\+Qual\+Data\+Set.\+convert\+Type (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{col,  }\item[{}]{datatype }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Convert the data type(int, str, float) of certain column of data to other types\end{DoxyVerb}
+ \mbox{\Hypertarget{classproject__del5_1_1_qual_data_set_a964325d8605cfcd886614855e7ea5bc3}\label{classproject__del5_1_1_qual_data_set_a964325d8605cfcd886614855e7ea5bc3}} 
+\index{project\_del5.QualDataSet@{project\_del5.QualDataSet}!explore@{explore}}
+\index{explore@{explore}!project\_del5.QualDataSet@{project\_del5.QualDataSet}}
+\doxysubsubsection{\texorpdfstring{explore()}{explore()}}
+{\footnotesize\ttfamily def project\+\_\+del5.\+Qual\+Data\+Set.\+explore (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{num\+\_\+target }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Create two data visualization displays: bar chart, histogram, heatmap, pie chart
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classproject__del5_1_1_qual_data_set_a8daf2dc8e6d23454efee9b2e414d9d34}\label{classproject__del5_1_1_qual_data_set_a8daf2dc8e6d23454efee9b2e414d9d34}} 
+\index{project\_del5.QualDataSet@{project\_del5.QualDataSet}!getDim@{getDim}}
+\index{getDim@{getDim}!project\_del5.QualDataSet@{project\_del5.QualDataSet}}
+\doxysubsubsection{\texorpdfstring{getDim()}{getDim()}}
+{\footnotesize\ttfamily def project\+\_\+del5.\+Qual\+Data\+Set.\+get\+Dim (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Return the shape/dimension of the data: how many rows and columns\end{DoxyVerb}
+ \mbox{\Hypertarget{classproject__del5_1_1_qual_data_set_a904fc1eaf7cf554a3e977e4ec2d6bce3}\label{classproject__del5_1_1_qual_data_set_a904fc1eaf7cf554a3e977e4ec2d6bce3}} 
+\index{project\_del5.QualDataSet@{project\_del5.QualDataSet}!getType@{getType}}
+\index{getType@{getType}!project\_del5.QualDataSet@{project\_del5.QualDataSet}}
+\doxysubsubsection{\texorpdfstring{getType()}{getType()}}
+{\footnotesize\ttfamily def project\+\_\+del5.\+Qual\+Data\+Set.\+get\+Type (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Return the data type(int, str, float) of certain column of data\end{DoxyVerb}
+ \mbox{\Hypertarget{classproject__del5_1_1_qual_data_set_a27cfa68b543e64f32d772a1c62a54509}\label{classproject__del5_1_1_qual_data_set_a27cfa68b543e64f32d772a1c62a54509}} 
+\index{project\_del5.QualDataSet@{project\_del5.QualDataSet}!oneHotEncoding@{oneHotEncoding}}
+\index{oneHotEncoding@{oneHotEncoding}!project\_del5.QualDataSet@{project\_del5.QualDataSet}}
+\doxysubsubsection{\texorpdfstring{oneHotEncoding()}{oneHotEncoding()}}
+{\footnotesize\ttfamily def project\+\_\+del5.\+Qual\+Data\+Set.\+one\+Hot\+Encoding (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{col\+\_\+list }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Convert each category value into a new column
+and assign a 1 or 0 (True/False) value to the column
+(something like pd.get_dummies())
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classproject__del5_1_1_qual_data_set_ac78990f50a9468d4d8d0cc1d590421a6}\label{classproject__del5_1_1_qual_data_set_ac78990f50a9468d4d8d0cc1d590421a6}} 
+\index{project\_del5.QualDataSet@{project\_del5.QualDataSet}!valueCount@{valueCount}}
+\index{valueCount@{valueCount}!project\_del5.QualDataSet@{project\_del5.QualDataSet}}
+\doxysubsubsection{\texorpdfstring{valueCount()}{valueCount()}}
+{\footnotesize\ttfamily def project\+\_\+del5.\+Qual\+Data\+Set.\+value\+Count (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{col }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Return the frequency distribution of categories within the column
+\end{DoxyVerb}
+ 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+project\+\_\+del5.\+py\end{DoxyCompactItemize}

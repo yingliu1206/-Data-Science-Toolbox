@@ -1,0 +1,98 @@
+\hypertarget{classproject__del3_1_1_time_series_data_set}{}\doxysection{project\+\_\+del3.\+Time\+Series\+Data\+Set Class Reference}
+\label{classproject__del3_1_1_time_series_data_set}\index{project\_del3.TimeSeriesDataSet@{project\_del3.TimeSeriesDataSet}}
+Inheritance diagram for project\+\_\+del3.\+Time\+Series\+Data\+Set\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classproject__del3_1_1_time_series_data_set}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \mbox{\hyperlink{classproject__del3_1_1_time_series_data_set_a1593d214ec9834b623dd66bf7c2c05af}{\+\_\+\+\_\+init\+\_\+\+\_\+}} (self, filename)
+\item 
+def \mbox{\hyperlink{classproject__del3_1_1_time_series_data_set_af409a650e5be5d6df1504ffd1acda4ff}{Parse\+Date}} (self)
+\item 
+def \mbox{\hyperlink{classproject__del3_1_1_time_series_data_set_aaa36132bae5fcf82374ae35d28e79a8c}{find\+Seasonality}} (self, col)
+\item 
+def \mbox{\hyperlink{classproject__del3_1_1_time_series_data_set_a348a3a8d3bfc64d9f60ab3c3b5037456}{stats\+Charateristics}} (self)
+\item 
+def \mbox{\hyperlink{classproject__del3_1_1_time_series_data_set_a7717f7065d535fd99c3199872872df75}{clean}} (self)
+\item 
+def \mbox{\hyperlink{classproject__del3_1_1_time_series_data_set_a5ccf9bd1aa80b7aba8753df77d26e878}{explore}} (self, target, col1)
+\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+\begin{DoxyVerb} A dataset subclass for time series data \end{DoxyVerb}
+ 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classproject__del3_1_1_time_series_data_set_a1593d214ec9834b623dd66bf7c2c05af}\label{classproject__del3_1_1_time_series_data_set_a1593d214ec9834b623dd66bf7c2c05af}} 
+\index{project\_del3.TimeSeriesDataSet@{project\_del3.TimeSeriesDataSet}!\_\_init\_\_@{\_\_init\_\_}}
+\index{\_\_init\_\_@{\_\_init\_\_}!project\_del3.TimeSeriesDataSet@{project\_del3.TimeSeriesDataSet}}
+\doxysubsubsection{\texorpdfstring{\_\_init\_\_()}{\_\_init\_\_()}}
+{\footnotesize\ttfamily def project\+\_\+del3.\+Time\+Series\+Data\+Set.\+\_\+\+\_\+init\+\_\+\+\_\+ (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{filename }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Create a new time series dataset instance
+
+filename          the name of the dataset
+datetimeFormat    the format to present the date
+\end{DoxyVerb}
+ 
+
+Reimplemented from \mbox{\hyperlink{classproject__del3_1_1_data_set}{project\+\_\+del3.\+Data\+Set}}.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classproject__del3_1_1_time_series_data_set_a7717f7065d535fd99c3199872872df75}\label{classproject__del3_1_1_time_series_data_set_a7717f7065d535fd99c3199872872df75}} 
+\index{project\_del3.TimeSeriesDataSet@{project\_del3.TimeSeriesDataSet}!clean@{clean}}
+\index{clean@{clean}!project\_del3.TimeSeriesDataSet@{project\_del3.TimeSeriesDataSet}}
+\doxysubsubsection{\texorpdfstring{clean()}{clean()}}
+{\footnotesize\ttfamily def project\+\_\+del3.\+Time\+Series\+Data\+Set.\+clean (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Clean time series dataset
+\end{DoxyVerb}
+ 
+
+Reimplemented from \mbox{\hyperlink{classproject__del3_1_1_data_set_a1dc17850e55dc69cb91ea5fe038af2ae}{project\+\_\+del3.\+Data\+Set}}.
+
+\mbox{\Hypertarget{classproject__del3_1_1_time_series_data_set_a5ccf9bd1aa80b7aba8753df77d26e878}\label{classproject__del3_1_1_time_series_data_set_a5ccf9bd1aa80b7aba8753df77d26e878}} 
+\index{project\_del3.TimeSeriesDataSet@{project\_del3.TimeSeriesDataSet}!explore@{explore}}
+\index{explore@{explore}!project\_del3.TimeSeriesDataSet@{project\_del3.TimeSeriesDataSet}}
+\doxysubsubsection{\texorpdfstring{explore()}{explore()}}
+{\footnotesize\ttfamily def project\+\_\+del3.\+Time\+Series\+Data\+Set.\+explore (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{target,  }\item[{}]{col1 }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Visualize time series date, ...
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classproject__del3_1_1_time_series_data_set_aaa36132bae5fcf82374ae35d28e79a8c}\label{classproject__del3_1_1_time_series_data_set_aaa36132bae5fcf82374ae35d28e79a8c}} 
+\index{project\_del3.TimeSeriesDataSet@{project\_del3.TimeSeriesDataSet}!findSeasonality@{findSeasonality}}
+\index{findSeasonality@{findSeasonality}!project\_del3.TimeSeriesDataSet@{project\_del3.TimeSeriesDataSet}}
+\doxysubsubsection{\texorpdfstring{findSeasonality()}{findSeasonality()}}
+{\footnotesize\ttfamily def project\+\_\+del3.\+Time\+Series\+Data\+Set.\+find\+Seasonality (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{col }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Get the season of the date
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classproject__del3_1_1_time_series_data_set_af409a650e5be5d6df1504ffd1acda4ff}\label{classproject__del3_1_1_time_series_data_set_af409a650e5be5d6df1504ffd1acda4ff}} 
+\index{project\_del3.TimeSeriesDataSet@{project\_del3.TimeSeriesDataSet}!ParseDate@{ParseDate}}
+\index{ParseDate@{ParseDate}!project\_del3.TimeSeriesDataSet@{project\_del3.TimeSeriesDataSet}}
+\doxysubsubsection{\texorpdfstring{ParseDate()}{ParseDate()}}
+{\footnotesize\ttfamily def project\+\_\+del3.\+Time\+Series\+Data\+Set.\+Parse\+Date (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Get the day of the week
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classproject__del3_1_1_time_series_data_set_a348a3a8d3bfc64d9f60ab3c3b5037456}\label{classproject__del3_1_1_time_series_data_set_a348a3a8d3bfc64d9f60ab3c3b5037456}} 
+\index{project\_del3.TimeSeriesDataSet@{project\_del3.TimeSeriesDataSet}!statsCharateristics@{statsCharateristics}}
+\index{statsCharateristics@{statsCharateristics}!project\_del3.TimeSeriesDataSet@{project\_del3.TimeSeriesDataSet}}
+\doxysubsubsection{\texorpdfstring{statsCharateristics()}{statsCharateristics()}}
+{\footnotesize\ttfamily def project\+\_\+del3.\+Time\+Series\+Data\+Set.\+stats\+Charateristics (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Get the statistical charateristics of the datsets
+\end{DoxyVerb}
+ 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+project\+\_\+del3.\+py\end{DoxyCompactItemize}

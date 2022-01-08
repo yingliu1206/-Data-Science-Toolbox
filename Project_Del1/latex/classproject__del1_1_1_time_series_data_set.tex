@@ -1,0 +1,113 @@
+\hypertarget{classproject__del1_1_1_time_series_data_set}{}\doxysection{project\+\_\+del1.\+Time\+Series\+Data\+Set Class Reference}
+\label{classproject__del1_1_1_time_series_data_set}\index{project\_del1.TimeSeriesDataSet@{project\_del1.TimeSeriesDataSet}}
+Inheritance diagram for project\+\_\+del1.\+Time\+Series\+Data\+Set\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classproject__del1_1_1_time_series_data_set}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \mbox{\hyperlink{classproject__del1_1_1_time_series_data_set_a17cf31c7b95a9b5d94733cc4e375749d}{\+\_\+\+\_\+init\+\_\+\+\_\+}} (self, filename, datetime\+Format)
+\item 
+def \mbox{\hyperlink{classproject__del1_1_1_time_series_data_set_abdede5745d78f5e9e2ac0810d1e34a43}{date\+Week}} (self, df)
+\item 
+def \mbox{\hyperlink{classproject__del1_1_1_time_series_data_set_a3ed93b9f2781dca9deedd458a31f10a4}{find\+Seasonality}} (self)
+\item 
+def \mbox{\hyperlink{classproject__del1_1_1_time_series_data_set_ad34f0c5ab1bc30d674bd6facccda6505}{frequency}} (self, df)
+\item 
+def \mbox{\hyperlink{classproject__del1_1_1_time_series_data_set_a5c0f1c441f40dab0f9f4bc182cf3f011}{stats\+Charateristics}} (self, df)
+\item 
+def \mbox{\hyperlink{classproject__del1_1_1_time_series_data_set_a3da7ea450fda6527bf5f226e13136ff5}{clean}} (self, df)
+\item 
+def \mbox{\hyperlink{classproject__del1_1_1_time_series_data_set_a426de7ed8cf123c99b162ff46070576f}{explore}} (self)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classproject__del1_1_1_time_series_data_set_af8b8d8da8480ec2e48d8d36de22ff0ca}\label{classproject__del1_1_1_time_series_data_set_af8b8d8da8480ec2e48d8d36de22ff0ca}} 
+{\bfseries stats\+Charateristics}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\begin{DoxyVerb}A dataset subclass for time series data \end{DoxyVerb}
+ 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classproject__del1_1_1_time_series_data_set_a17cf31c7b95a9b5d94733cc4e375749d}\label{classproject__del1_1_1_time_series_data_set_a17cf31c7b95a9b5d94733cc4e375749d}} 
+\index{project\_del1.TimeSeriesDataSet@{project\_del1.TimeSeriesDataSet}!\_\_init\_\_@{\_\_init\_\_}}
+\index{\_\_init\_\_@{\_\_init\_\_}!project\_del1.TimeSeriesDataSet@{project\_del1.TimeSeriesDataSet}}
+\doxysubsubsection{\texorpdfstring{\_\_init\_\_()}{\_\_init\_\_()}}
+{\footnotesize\ttfamily def project\+\_\+del1.\+Time\+Series\+Data\+Set.\+\_\+\+\_\+init\+\_\+\+\_\+ (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{filename,  }\item[{}]{datetime\+Format }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Create a new time series dataset instance
+
+filename          the name of the dataset
+datetimeFormat    the format to present the date
+\end{DoxyVerb}
+ 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classproject__del1_1_1_time_series_data_set_a3da7ea450fda6527bf5f226e13136ff5}\label{classproject__del1_1_1_time_series_data_set_a3da7ea450fda6527bf5f226e13136ff5}} 
+\index{project\_del1.TimeSeriesDataSet@{project\_del1.TimeSeriesDataSet}!clean@{clean}}
+\index{clean@{clean}!project\_del1.TimeSeriesDataSet@{project\_del1.TimeSeriesDataSet}}
+\doxysubsubsection{\texorpdfstring{clean()}{clean()}}
+{\footnotesize\ttfamily def project\+\_\+del1.\+Time\+Series\+Data\+Set.\+clean (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{df }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Clean time series dataset
+\end{DoxyVerb}
+ 
+
+Reimplemented from \mbox{\hyperlink{classproject__del1_1_1_data_set_a5c9d072e587f1438d5619cf84efe2b98}{project\+\_\+del1.\+Data\+Set}}.
+
+\mbox{\Hypertarget{classproject__del1_1_1_time_series_data_set_abdede5745d78f5e9e2ac0810d1e34a43}\label{classproject__del1_1_1_time_series_data_set_abdede5745d78f5e9e2ac0810d1e34a43}} 
+\index{project\_del1.TimeSeriesDataSet@{project\_del1.TimeSeriesDataSet}!dateWeek@{dateWeek}}
+\index{dateWeek@{dateWeek}!project\_del1.TimeSeriesDataSet@{project\_del1.TimeSeriesDataSet}}
+\doxysubsubsection{\texorpdfstring{dateWeek()}{dateWeek()}}
+{\footnotesize\ttfamily def project\+\_\+del1.\+Time\+Series\+Data\+Set.\+date\+Week (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{df }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Get the day of the week 
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classproject__del1_1_1_time_series_data_set_a426de7ed8cf123c99b162ff46070576f}\label{classproject__del1_1_1_time_series_data_set_a426de7ed8cf123c99b162ff46070576f}} 
+\index{project\_del1.TimeSeriesDataSet@{project\_del1.TimeSeriesDataSet}!explore@{explore}}
+\index{explore@{explore}!project\_del1.TimeSeriesDataSet@{project\_del1.TimeSeriesDataSet}}
+\doxysubsubsection{\texorpdfstring{explore()}{explore()}}
+{\footnotesize\ttfamily def project\+\_\+del1.\+Time\+Series\+Data\+Set.\+explore (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Visualize time series date, ...
+\end{DoxyVerb}
+ 
+
+Reimplemented from \mbox{\hyperlink{classproject__del1_1_1_data_set_ad51918ab499c2df527ad75e93fe82e20}{project\+\_\+del1.\+Data\+Set}}.
+
+\mbox{\Hypertarget{classproject__del1_1_1_time_series_data_set_a3ed93b9f2781dca9deedd458a31f10a4}\label{classproject__del1_1_1_time_series_data_set_a3ed93b9f2781dca9deedd458a31f10a4}} 
+\index{project\_del1.TimeSeriesDataSet@{project\_del1.TimeSeriesDataSet}!findSeasonality@{findSeasonality}}
+\index{findSeasonality@{findSeasonality}!project\_del1.TimeSeriesDataSet@{project\_del1.TimeSeriesDataSet}}
+\doxysubsubsection{\texorpdfstring{findSeasonality()}{findSeasonality()}}
+{\footnotesize\ttfamily def project\+\_\+del1.\+Time\+Series\+Data\+Set.\+find\+Seasonality (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Get the season of the date 
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classproject__del1_1_1_time_series_data_set_ad34f0c5ab1bc30d674bd6facccda6505}\label{classproject__del1_1_1_time_series_data_set_ad34f0c5ab1bc30d674bd6facccda6505}} 
+\index{project\_del1.TimeSeriesDataSet@{project\_del1.TimeSeriesDataSet}!frequency@{frequency}}
+\index{frequency@{frequency}!project\_del1.TimeSeriesDataSet@{project\_del1.TimeSeriesDataSet}}
+\doxysubsubsection{\texorpdfstring{frequency()}{frequency()}}
+{\footnotesize\ttfamily def project\+\_\+del1.\+Time\+Series\+Data\+Set.\+frequency (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{df }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Apply a frequency to the data
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classproject__del1_1_1_time_series_data_set_a5c0f1c441f40dab0f9f4bc182cf3f011}\label{classproject__del1_1_1_time_series_data_set_a5c0f1c441f40dab0f9f4bc182cf3f011}} 
+\index{project\_del1.TimeSeriesDataSet@{project\_del1.TimeSeriesDataSet}!statsCharateristics@{statsCharateristics}}
+\index{statsCharateristics@{statsCharateristics}!project\_del1.TimeSeriesDataSet@{project\_del1.TimeSeriesDataSet}}
+\doxysubsubsection{\texorpdfstring{statsCharateristics()}{statsCharateristics()}}
+{\footnotesize\ttfamily def project\+\_\+del1.\+Time\+Series\+Data\+Set.\+stats\+Charateristics (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{df }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Get the statistical charateristics of the datsets
+\end{DoxyVerb}
+ 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+project\+\_\+del1.\+py\end{DoxyCompactItemize}
